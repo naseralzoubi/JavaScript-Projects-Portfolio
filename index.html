@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naser Alzoubi - Creative Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="gradient-canvas"></canvas>
+    
+    <div class="page-wrapper">
+        <header>
+            <div class="header-inner">
+                <div class="logo">NA</div>
+                <button class="menu-toggle">Menu</button>
+            </div>
+        </header>
+
+        <nav class="main-nav">
+            <div class="nav-content">
+                <ul>
+                    <li><a href="#home" data-text="Home">Home</a></li>
+                    <li><a href="#works" data-text="Works">Works</a></li>
+                    <li><a href="#lab" data-text="Lab">Lab</a></li>
+                    <li><a href="#contact" data-text="Contact">Contact</a></li>
+                </ul>
+                <div class="nav-footer">
+                    <div class="social-links">
+                        <a href="#" target="_blank">Instagram</a>
+                        <a href="#" target="_blank">Twitter</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <section id="home">
+                <div class="hero">
+                    <h1 class="reveal-text">Creative</h1>
+                    <h1 class="reveal-text">Developer</h1>
+                    <div class="hero-footer">
+                        <p class="bio">Creating digital experiences through code and design</p>
+                        <div class="scroll-indicator">
+                            <span>Scroll to explore</span>
+                            <div class="scroll-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="works">
+                <h2 class="section-title">Selected Works</h2>
+                <div class="projects-grid">
+                    <article class="project-card" data-color="#FF3366">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/800x600" alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Immersive Web Experience</h3>
+                            <p>WebGL / Three.js</p>
+                            <a href="#" class="project-link">View Case Study</a>
+                        </div>
+                    </article>
+                    <article class="project-card" data-color="#33FF99">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/800x600" alt="Project 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>Interactive Installation</h3>
+                            <p>Canvas / Web Audio API</p>
+                            <a href="#" class="project-link">View Case Study</a>
+                        </div>
+                    </article>
+                    <article class="project-card" data-color="#6633FF">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/800x600" alt="Project 3">
+                        </div>
+                        <div class="project-info">
+                            <h3>Generative Art Platform</h3>
+                            <p>JavaScript / P5.js</p>
+                            <a href="#" class="project-link">View Case Study</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="lab">
+                <h2 class="section-title">Experiments</h2>
+                <div class="experiments-grid">
+                    <div class="experiment-item">
+                        <div class="experiment-preview">
+                            <canvas class="experiment-canvas"></canvas>
+                        </div>
+                        <h3>Particle System</h3>
+                        <p>Interactive particle animation</p>
+                    </div>
+                    <div class="experiment-item">
+                        <div class="experiment-preview">
+                            <canvas class="experiment-canvas"></canvas>
+                        </div>
+                        <h3>Wave Generator</h3>
+                        <p>Procedural wave patterns</p>
+                    </div>
+                    <div class="experiment-item">
+                        <div class="experiment-preview">
+                            <canvas class="experiment-canvas"></canvas>
+                        </div>
+                        <h3>Color Flow</h3>
+                        <p>Dynamic color interactions</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="contact-content">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <div class="contact-info">
+                        <p>Interested in working together? Let's connect.</p>
+                        <a href="mailto:Naser.Alzoubi@my-aolcc.com" class="email-link">Naser.Alzoubi@my-aolcc.com</a>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 Naser Alzoubi</p>
+                <div class="footer-links">
+                    <a href="#" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">CodePen</a>
+                    <a href="#" target="_blank">Behance</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
